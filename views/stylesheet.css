@@ -1,7 +1,0 @@
-body {
-	display: flex;
-}
-
-button:first-child {
-	background-color: green;
-}

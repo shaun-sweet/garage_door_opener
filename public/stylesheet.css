@@ -1,0 +1,7 @@
+button:first-child {
+	color: green;
+}
+
+button:last-child {
+	color: red;
+}
