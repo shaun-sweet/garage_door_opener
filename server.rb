@@ -7,6 +7,6 @@ get '/' do
 end
 
 get '/open' do
-	system("python ~/projects/garage_door_opener/t.py")
+	system("python /home/pi/projects/garage_door_opener/t.py")
 	redirect '/'
 end
