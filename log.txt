@@ -1,0 +1,14 @@
+[2016-11-19 01:14:29] INFO  WEBrick 1.3.1
+[2016-11-19 01:14:29] INFO  ruby 2.1.5 (2014-11-13) [arm-linux-gnueabihf]
+== Sinatra (v1.4.7) has taken the stage on 80 for development with backup from WEBrick
+[2016-11-19 01:14:29] INFO  WEBrick::HTTPServer#start: pid=10709 port=80
+10.0.1.9 - - [19/Nov/2016:01:14:32 +0000] "GET / HTTP/1.1" 200 229 0.0720
+10.0.1.9 - - [19/Nov/2016:01:14:32 UTC] "GET / HTTP/1.1" 200 229
+- -> /
+whats up
+10.0.1.9 - - [19/Nov/2016:01:14:42 +0000] "GET /open HTTP/1.1" 302 - 2.1671
+10.0.1.9 - - [19/Nov/2016:01:14:40 UTC] "GET /open HTTP/1.1" 302 0
+http://pi.shaunsweet.com/ -> /open
+10.0.1.9 - - [19/Nov/2016:01:14:42 +0000] "GET / HTTP/1.1" 200 229 0.0131
+10.0.1.9 - - [19/Nov/2016:01:14:42 UTC] "GET / HTTP/1.1" 200 229
+http://pi.shaunsweet.com/ -> /
