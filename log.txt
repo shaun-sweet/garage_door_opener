@@ -12,3 +12,14 @@ http://pi.shaunsweet.com/ -> /open
 10.0.1.9 - - [19/Nov/2016:01:14:42 +0000] "GET / HTTP/1.1" 200 229 0.0131
 10.0.1.9 - - [19/Nov/2016:01:14:42 UTC] "GET / HTTP/1.1" 200 229
 http://pi.shaunsweet.com/ -> /
+whats up
+10.0.1.9 - - [19/Nov/2016:01:15:29 +0000] "GET /open HTTP/1.1" 302 - 2.1476
+10.0.1.9 - - [19/Nov/2016:01:15:27 UTC] "GET /open HTTP/1.1" 302 0
+http://pi.shaunsweet.com/ -> /open
+10.0.1.9 - - [19/Nov/2016:01:15:30 +0000] "GET / HTTP/1.1" 200 229 0.0089
+10.0.1.9 - - [19/Nov/2016:01:15:29 UTC] "GET / HTTP/1.1" 200 229
+http://pi.shaunsweet.com/ -> /
+== Sinatra has ended his set (crowd applauds)
+[2016-11-19 01:24:38] INFO  going to shutdown ...
+[2016-11-19 01:24:38] INFO  WEBrick::HTTPServer#start done.
+whats up
