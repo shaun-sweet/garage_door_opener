@@ -1,0 +1,57 @@
+html, body
+  height: 100%
+
+
+// Vars
+
+$background-color: #F0F0F0
+$content-background-color: #D8D8D8
+$content-border-color: #979797
+$font: Arial Rounded MT Bold
+$font-size: 29px
+$font-color: white
+$clicker-height: 300px
+$clicker-width: $clicker-height
+
+// ***************
+
+body
+  background-color: $background-color
+
+p
+  font-family: $font
+  font-size: $font-size
+  margin: 0
+  color: $font-color
+  text-shadow: 0px 2px 4px rgba(0,0,0,50)
+  
+.content-display
+  background-color: $content-background-color
+  border: 1px solid $content-border-color
+  width: 90%
+
+
+body, .mission-control-header, .status-display
+  display: flex
+  flex-flow: column
+  justify-content: space-around
+  align-items: center
+
+.mission-control-header
+  @extend .content-display
+  padding-top: .7em
+  padding-bottom: .7em
+
+.status-display
+  @extend .content-display
+  padding-top: 4em
+  padding-bottom: 4em
+
+.garage-button
+  width: $clicker-width
+  height: $clicker-height
+  background-image: url('clicker.png')
+  background-position: center top
+  background-repeat: no-repeat
+  &:hover
+    background-image: url('clicked.png')

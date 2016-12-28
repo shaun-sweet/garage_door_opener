@@ -1,0 +1,42 @@
+html, body {
+  height: 100%; }
+
+body {
+  background-color: #F0F0F0; }
+
+p {
+  font-family: Arial Rounded MT Bold;
+  font-size: 29px;
+  margin: 0;
+  color: white;
+  text-shadow: 0px 2px 4px black; }
+
+.content-display, .mission-control-header, .status-display {
+  background-color: #D8D8D8;
+  border: 1px solid #979797;
+  width: 90%; }
+
+body, .mission-control-header, .status-display {
+  display: flex;
+  flex-flow: column;
+  justify-content: space-around;
+  align-items: center; }
+
+.mission-control-header {
+  padding-top: 0.7em;
+  padding-bottom: 0.7em; }
+
+.status-display {
+  padding-top: 4em;
+  padding-bottom: 4em; }
+
+.garage-button {
+  width: 300px;
+  height: 300px;
+  background-image: url("clicker.png");
+  background-position: center top;
+  background-repeat: no-repeat; }
+  .garage-button:hover {
+    background-image: url("clicked.png"); }
+
+/*# sourceMappingURL=stylesheet.css.map */
