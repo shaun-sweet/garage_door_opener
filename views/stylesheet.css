@@ -37,6 +37,7 @@ body, .mission-control-header, .status-display {
   background-position: center top;
   background-repeat: no-repeat; }
   .garage-button:hover {
-    background-image: url("clicked.png"); }
+    background-image: url("clicked.png");
+    cursor: pointer; }
 
 /*# sourceMappingURL=stylesheet.css.map */
