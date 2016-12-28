@@ -5,7 +5,7 @@ $(document).ready(function() {
       url: 'http://pi.shaunsweet.com/open.php',
 
     }).done(function(){
-      
+      console.log("command sent!");
     })
   })
 })
